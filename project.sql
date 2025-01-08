@@ -1,0 +1,7 @@
+CREATE DATABASE project_01;
+ USE project_01;
+ 
+SELECT *FROM hr;
+
+ALTER TABLE hr
+CHANGE COLUMN ï»¿id emp_id VARCHAR(20)NULL
